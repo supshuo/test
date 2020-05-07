@@ -1,0 +1,101 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\eda\flow_led\simulation\qsim
+vflow_led
+IC5ecP0OeCgG70EPS65ChW1
+VVF]eNJlAO8T]R8>U9cg8=0
+Z1 dD:\eda\flow_led\simulation\qsim
+w1554291494
+Z2 8flow_led.vo
+Z3 Fflow_led.vo
+L0 31
+Z4 OV;L;10.1d;51
+r1
+31
+Z5 !s90 -work|work|flow_led.vo|
+Z6 o-work work -O0
+!i10b 1
+!s100 ckK>lP[R@JS1`DKb9Ci^h2
+!s85 0
+!s108 1554291495.131000
+Z7 !s107 flow_led.vo|
+!s101 -O0
+vflow_led_vlg_check_tst
+!i10b 1
+!s100 [fl^PN`nFN9j3WN^Gh5`d2
+IF@;oKL6dP5QGgbdO]d_Jk0
+Z8 V3dJCE;Bz6CT7IaS=GN^113
+R1
+Z9 w1554291493
+Z10 8Waveform.vwf.vt
+Z11 FWaveform.vwf.vt
+L0 59
+R4
+r1
+!s85 0
+31
+Z12 !s108 1554291495.406000
+Z13 !s107 Waveform.vwf.vt|
+Z14 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R6
+vflow_led_vlg_sample_tst
+!i10b 1
+!s100 Cizd<h>[MA[mDWU?QLHb43
+I:73gFK7E79<fU188G6BXf0
+Z15 V`oeU::nEUPBfeSX8z0LRY2
+R1
+R9
+R10
+R11
+L0 29
+R4
+r1
+!s85 0
+31
+R12
+R13
+R14
+!s101 -O0
+R6
+vflow_led_vlg_tst
+IKE][`3jM4H^XbiaZ]9jh[2
+V]NoO_QUE:OJJ`DBnWeM>M1
+R1
+w1554280311
+8D:/eda/flow_led/simulation/qsim/flow_led.vt
+FD:/eda/flow_led/simulation/qsim/flow_led.vt
+L0 28
+R4
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 _W=fK]O8ZA1M_n?JRX1Q<2
+!s85 0
+!s108 1554280523.709000
+!s107 D:/eda/flow_led/simulation/qsim/flow_led.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/eda/flow_led/simulation/qsim|D:/eda/flow_led/simulation/qsim/flow_led.vt|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/eda/flow_led/simulation/qsim -O0
+vflow_led_vlg_vec_tst
+!i10b 1
+!s100 L2LQUaZ8i>nLD331^PHko2
+IAGYcfV^;Y3]>PV?E`HnRj0
+Z16 VneHW34cTPOPT:LIS2kcMM1
+R1
+R9
+R10
+R11
+Z17 L0 207
+R4
+r1
+!s85 0
+31
+R12
+R13
+R14
+!s101 -O0
+R6

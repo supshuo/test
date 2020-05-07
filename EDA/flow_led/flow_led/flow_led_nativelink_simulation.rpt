@@ -1,0 +1,130 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneive
+Quartus root          :  d:/altera/13.1/quartus/bin64/
+Quartus sim root      :  d:/altera/13.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  flow_led.vo
+Sim SDF file          :  flow_led__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script d:/altera/13.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File flow_led_run_msim_gate_verilog.do already exists - backing up current file as flow_led_run_msim_gate_verilog.do.bak10
+Probing transcript
+ModelSim-Altera Info: # Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do flow_led_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {flow_led.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module flow_led
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	flow_led
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/eda/flow_led/simulation/qsim {D:/eda/flow_led/simulation/qsim/flow_led.vt}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module flow_led_vlg_tst
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	flow_led_vlg_tst
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  flow_led_vlg_tst
+ModelSim-Altera Info: # vsim -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps flow_led_vlg_tst 
+ModelSim-Altera Info: # Loading work.flow_led_vlg_tst
+ModelSim-Altera Info: # Loading work.flow_led
+ModelSim-Altera Info: # Loading altera_ver.dffeas
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_lcell_comb
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_io_obuf
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_io_ibuf
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_clkctrl
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_mux41
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_ena_reg
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_jtag
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_ram_block
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_ram_register
+ModelSim-Altera Info: # Loading cycloneive_ver.cycloneive_ram_pulse_generator
+ModelSim-Altera Warning: # ** Warning: (vsim-3017) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Too few port connections. Expected 7, found 3.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /flow_led_vlg_tst/i1
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading altera_ver.PRIM_GDFF_LOW
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           File in use by: admin  Hostname: LAPTOP-H8SGEGO5  ProcessID: 14348
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Attempting to use alternate WLF file "./wlft5e9wen".
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Using alternate file: ./wlft5e9wen
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # Break in Module flow_led_vlg_tst at D:/eda/flow_led/simulation/qsim/flow_led.vt line 56
+ModelSim-Altera Info: # Simulation Breakpoint: Break in Module flow_led_vlg_tst at D:/eda/flow_led/simulation/qsim/flow_led.vt line 56
+ModelSim-Altera Info: # MACRO ./flow_led_run_msim_gate_verilog.do PAUSED at line 17
+ModelSim-Altera Info: run -all
+ModelSim-Altera Info: run
+ModelSim-Altera Info: step
+ModelSim-Altera Info: # Next activity is in 9 ns.
+ModelSim-Altera Info: env ..
+ModelSim-Altera Info: # sim:/flow_led_vlg_tst
+ModelSim-Altera Info: # Reopencommand error: wrong # args: should be "::AbstractDataset::fromId id"
+ModelSim-Altera Info: # wrong # args: should be "::AbstractDataset::fromId id"
+ModelSim-Altera Info: #     (procedure "::AbstractDataset::fromId" body line 1)
+ModelSim-Altera Info: #     invoked from within
+ModelSim-Altera Info: # "AbstractDataset::fromId"
+ModelSim-Altera Info: #     ("uplevel" body line 1)
+ModelSim-Altera Info: #     invoked from within
+ModelSim-Altera Info: # "uplevel AbstractDataset::fromId $id"
+ModelSim-Altera Info: #     (procedure "AbstractDatasetCreate" line 2)
+ModelSim-Altera Info: #     invoked from within
+ModelSim-Altera Info: # "AbstractDatasetCreate [$w cget -window_data]"
+ModelSim-Altera Info: #     (procedure "QStructure::ReOpenWindow" line 11)
+ModelSim-Altera Info: #     invoked from within
+ModelSim-Altera Info: # "QStructure::ReOpenWindow .main_pane.structure"
+ModelSim-Altera Info: #     ("eval" body line 1)
+ModelSim-Altera Info: #     invoked from within
+ModelSim-Altera Info: # "eval [$windowobj cget -reopencommand] $windowobj "
+ModelSim-Altera Info: # Break key hit 
+ModelSim-Altera Info: step -out -current
+ModelSim-Altera Info: # Can't move the Now cursor.
+ModelSim-Altera Info: # Break key hit 
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Load canceled
+ModelSim-Altera Info: # A bookmark named "bookmark0" has been added for window "Wave"
+ModelSim-Altera Info: # Bookmark saving is disabled.
+ModelSim-Altera Info: # The 1 bookmark in window "Wave" has been discarded
+ModelSim-Altera Info: # Changing window so values will track the active time
+ModelSim-Altera Info: # Error: Source code annotation feature requires a dataflow License.
+ModelSim-Altera Info: # No dataflow License exists
+ModelSim-Altera Info: # A bookmark named "bookmark0" has been added for window "Source"
+Info: NativeLink simulation flow was successful

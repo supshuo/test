@@ -1,0 +1,74 @@
+﻿// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "04/02/2019 13:02:29"
+                                                                                
+// Verilog Test Bench template for design : flow_led
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ns // 定义仿真时间单位1ns和仿真时间精度为1ns
+module flow_led_vlg_tst();//测试模块，模板生成，默认即可，也可以修改
+// constants                                           
+// general purpose registers
+//reg eachvec;//输入寄存器的向量，不用删掉即可
+// test vector input registers
+reg rst_n;//模板生成， 复位信号
+reg sys_clk50m;//模板生成，时钟信号
+// wires                                               
+wire [3:0]  led;//模板生成，led输出
+
+//parameter define
+parameter T = 20; // 时钟周期为20ns
+// assign statements (if any)                          
+
+flow_led i1 (
+// port map - connection between master ports and signals/registers   
+	.led(led),
+	.rst_n(rst_n),
+	.sys_clk50m(sys_clk50m)
+	);  //模板生成，实例化flow_led模块i1，名称可以修改，名称关联方法
+	
+initial   //初始化语句，执行一次                                             
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin                          
+    sys_clk50m = 1'b0; // 时钟信号赋初值
+	rst_n = 1'b0; // 复位信号赋初值   
+	#(T+1) rst_n = 1'b1; // 在第21ns的时候复位信号信号拉高
+	#1000 $stop;//仿真1000ns
+// --> end                                             
+// $display("Running testbench:%b",sys_clk50m);//二进制显示数据                     
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+	#(T/2) sys_clk50m = ~sys_clk50m;                                                       
+	//@eachvec;//注释掉,仿真才能得到一段很长的波形                                              
+// --> end                                             
+end   
+
+
+                                                 
+endmodule
+

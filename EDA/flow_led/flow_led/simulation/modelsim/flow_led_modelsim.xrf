@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/eda/flow_led/flow_led.v
+source_file = 1, D:/eda/flow_led/db/flow_led.cbx.xml
+design_name = flow_led
+instance = comp, \led[0]~output , led[0]~output, flow_led, 1
+instance = comp, \led[1]~output , led[1]~output, flow_led, 1
+instance = comp, \led[2]~output , led[2]~output, flow_led, 1
+instance = comp, \led[3]~output , led[3]~output, flow_led, 1
+instance = comp, \sys_clk50m~input , sys_clk50m~input, flow_led, 1
+instance = comp, \rst_n~input , rst_n~input, flow_led, 1

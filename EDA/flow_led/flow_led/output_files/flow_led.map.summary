@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 03 16:35:01 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : flow_led
+Top-level Entity Name : flow_led
+Family : Cyclone IV E
+Total logic elements : 1,034
+    Total combinational functions : 593
+    Dedicated logic registers : 815
+Total registers : 815
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 59,392
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

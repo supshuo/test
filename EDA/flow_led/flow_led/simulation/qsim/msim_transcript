@@ -1,0 +1,108 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do flow_led_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {flow_led.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module flow_led
+# 
+# Top level modules:
+# 	flow_led
+# 
+# vlog -vlog01compat -work work +incdir+D:/eda/flow_led/simulation/qsim {D:/eda/flow_led/simulation/qsim/flow_led.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module flow_led_vlg_tst
+# 
+# Top level modules:
+# 	flow_led_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  flow_led_vlg_tst
+# vsim -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps flow_led_vlg_tst 
+# Loading work.flow_led_vlg_tst
+# Loading work.flow_led
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_jtag
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-3017) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Too few port connections. Expected 7, found 3.
+# 
+#         Region: /flow_led_vlg_tst/i1
+# ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
+# 
+# ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
+# 
+# ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
+# 
+# ** Warning: (vsim-3722) D:/eda/flow_led/simulation/qsim/flow_led.vt(47): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
+# 
+# Loading altera_ver.PRIM_GDFF_LOW
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: admin  Hostname: LAPTOP-H8SGEGO5  ProcessID: 14348
+# 
+#           Attempting to use alternate WLF file "./wlft5e9wen".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft5e9wen
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module flow_led_vlg_tst at D:/eda/flow_led/simulation/qsim/flow_led.vt line 56
+# Simulation Breakpoint: Break in Module flow_led_vlg_tst at D:/eda/flow_led/simulation/qsim/flow_led.vt line 56
+# MACRO ./flow_led_run_msim_gate_verilog.do PAUSED at line 17
+run -all
+run
+step
+# Next activity is in 9 ns.
+env ..
+# sim:/flow_led_vlg_tst
+# Reopencommand error: wrong # args: should be "::AbstractDataset::fromId id"
+# wrong # args: should be "::AbstractDataset::fromId id"
+#     (procedure "::AbstractDataset::fromId" body line 1)
+#     invoked from within
+# "AbstractDataset::fromId"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel AbstractDataset::fromId $id"
+#     (procedure "AbstractDatasetCreate" line 2)
+#     invoked from within
+# "AbstractDatasetCreate [$w cget -window_data]"
+#     (procedure "QStructure::ReOpenWindow" line 11)
+#     invoked from within
+# "QStructure::ReOpenWindow .main_pane.structure"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval [$windowobj cget -reopencommand] $windowobj "
+# Break key hit 
+step -out -current
+# Can't move the Now cursor.
+# Break key hit 
+# 
+# Load canceled
+# A bookmark named "bookmark0" has been added for window "Wave"
+# Bookmark saving is disabled.
+# The 1 bookmark in window "Wave" has been discarded
+# Changing window so values will track the active time
+# Error: Source code annotation feature requires a dataflow License.
+# No dataflow License exists
+# A bookmark named "bookmark0" has been added for window "Source"

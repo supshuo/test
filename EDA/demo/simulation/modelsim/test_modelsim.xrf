@@ -1,0 +1,6 @@
+vendor_name = ModelSim
+source_file = 1, F:/Code/EDA/demo/test.v
+source_file = 1, F:/Code/EDA/demo/db/test.cbx.xml
+design_name = test
+instance = comp, \y~output , y~output, test, 1
+instance = comp, \a~input , a~input, test, 1

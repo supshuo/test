@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\eda\flow_led\simulation\qsim
+vflow_led
+I=Ucf?WKbQll48[i4H>_h50
+Z1 VjCmgc7PdD8QQP@XY9F[5=3
+Z2 dD:\eda\flow_led\simulation\qsim
+w1552876863
+8D:/eda/flow_led/flow_led.v
+FD:/eda/flow_led/flow_led.v
+L0 8
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-vlog01compat -work work -O0
+!i10b 1
+!s100 nD;kEz:=OTJXc1<:^W6_C3
+!s85 0
+!s108 1554280077.823000
+!s107 D:/eda/flow_led/flow_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/eda/flow_led|D:/eda/flow_led/flow_led.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/eda/flow_led -O0
+vflow_led_vlg_tst
+!i10b 1
+!s100 86I^9C0O;n<PWT86f8gWo2
+Im6ci9UziLgjZT<]C3PhI41
+V]NoO_QUE:OJJ`DBnWeM>M1
+R2
+w1554271323
+8D:/eda/flow_led/simulation/qsim/flow_led.vt
+FD:/eda/flow_led/simulation/qsim/flow_led.vt
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1554280077.925000
+!s107 D:/eda/flow_led/simulation/qsim/flow_led.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/eda/flow_led/simulation/qsim|D:/eda/flow_led/simulation/qsim/flow_led.vt|
+!s101 -O0
+R4
+!s92 -vlog01compat -work work +incdir+D:/eda/flow_led/simulation/qsim -O0
