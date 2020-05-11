@@ -1,0 +1,362 @@
+$comment
+	File created using the following command:
+		vcd file flow_LED.msim.vcd -direction
+$end
+$date
+	Mon May 11 10:09:19 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module flow_LED_vlg_vec_tst $end
+$var reg 1 ! rst_n $end
+$var reg 1 " sys_clk50m $end
+$var wire 1 # led [3] $end
+$var wire 1 $ led [2] $end
+$var wire 1 % led [1] $end
+$var wire 1 & led [0] $end
+$var wire 1 ' sampler $end
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . led[0]~output_o $end
+$var wire 1 / led[1]~output_o $end
+$var wire 1 0 led[2]~output_o $end
+$var wire 1 1 led[3]~output_o $end
+$var wire 1 2 sys_clk50m~input_o $end
+$var wire 1 3 Decoder0~2_combout $end
+$var wire 1 4 rst_n~input_o $end
+$var wire 1 5 cnt[0]~24_combout $end
+$var wire 1 6 cnt[0]~25 $end
+$var wire 1 7 cnt[1]~26_combout $end
+$var wire 1 8 cnt[1]~27 $end
+$var wire 1 9 cnt[2]~28_combout $end
+$var wire 1 : cnt[2]~29 $end
+$var wire 1 ; cnt[3]~30_combout $end
+$var wire 1 < cnt[3]~31 $end
+$var wire 1 = cnt[4]~32_combout $end
+$var wire 1 > cnt[4]~33 $end
+$var wire 1 ? cnt[5]~34_combout $end
+$var wire 1 @ Equal0~0_combout $end
+$var wire 1 A cnt[5]~35 $end
+$var wire 1 B cnt[6]~36_combout $end
+$var wire 1 C cnt[6]~37 $end
+$var wire 1 D cnt[7]~38_combout $end
+$var wire 1 E cnt[7]~39 $end
+$var wire 1 F cnt[8]~40_combout $end
+$var wire 1 G cnt[8]~41 $end
+$var wire 1 H cnt[9]~42_combout $end
+$var wire 1 I Equal0~1_combout $end
+$var wire 1 J cnt[9]~43 $end
+$var wire 1 K cnt[10]~44_combout $end
+$var wire 1 L cnt[10]~45 $end
+$var wire 1 M cnt[11]~46_combout $end
+$var wire 1 N cnt[11]~47 $end
+$var wire 1 O cnt[12]~48_combout $end
+$var wire 1 P cnt[12]~49 $end
+$var wire 1 Q cnt[13]~50_combout $end
+$var wire 1 R Equal0~2_combout $end
+$var wire 1 S cnt[13]~51 $end
+$var wire 1 T cnt[14]~52_combout $end
+$var wire 1 U cnt[14]~53 $end
+$var wire 1 V cnt[15]~54_combout $end
+$var wire 1 W cnt[15]~55 $end
+$var wire 1 X cnt[16]~56_combout $end
+$var wire 1 Y cnt[16]~57 $end
+$var wire 1 Z cnt[17]~58_combout $end
+$var wire 1 [ Equal0~3_combout $end
+$var wire 1 \ Equal0~4_combout $end
+$var wire 1 ] cnt[17]~59 $end
+$var wire 1 ^ cnt[18]~60_combout $end
+$var wire 1 _ cnt[18]~61 $end
+$var wire 1 ` cnt[19]~62_combout $end
+$var wire 1 a cnt[19]~63 $end
+$var wire 1 b cnt[20]~64_combout $end
+$var wire 1 c cnt[20]~65 $end
+$var wire 1 d cnt[21]~66_combout $end
+$var wire 1 e Equal0~5_combout $end
+$var wire 1 f cnt[21]~67 $end
+$var wire 1 g cnt[22]~68_combout $end
+$var wire 1 h cnt[22]~69 $end
+$var wire 1 i cnt[23]~70_combout $end
+$var wire 1 j Equal0~6_combout $end
+$var wire 1 k LessThan0~0_combout $end
+$var wire 1 l Equal0~7_combout $end
+$var wire 1 m led[3]~reg0_q $end
+$var wire 1 n Decoder0~1_combout $end
+$var wire 1 o led[2]~reg0_q $end
+$var wire 1 p Decoder0~0_combout $end
+$var wire 1 q led[1]~reg0_q $end
+$var wire 1 r Decoder1~0_combout $end
+$var wire 1 s led[0]~reg0_q $end
+$var wire 1 t cnt [23] $end
+$var wire 1 u cnt [22] $end
+$var wire 1 v cnt [21] $end
+$var wire 1 w cnt [20] $end
+$var wire 1 x cnt [19] $end
+$var wire 1 y cnt [18] $end
+$var wire 1 z cnt [17] $end
+$var wire 1 { cnt [16] $end
+$var wire 1 | cnt [15] $end
+$var wire 1 } cnt [14] $end
+$var wire 1 ~ cnt [13] $end
+$var wire 1 !! cnt [12] $end
+$var wire 1 "! cnt [11] $end
+$var wire 1 #! cnt [10] $end
+$var wire 1 $! cnt [9] $end
+$var wire 1 %! cnt [8] $end
+$var wire 1 &! cnt [7] $end
+$var wire 1 '! cnt [6] $end
+$var wire 1 (! cnt [5] $end
+$var wire 1 )! cnt [4] $end
+$var wire 1 *! cnt [3] $end
+$var wire 1 +! cnt [2] $end
+$var wire 1 ,! cnt [1] $end
+$var wire 1 -! cnt [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0&
+0%
+0$
+0#
+x'
+0(
+1)
+x*
+1+
+1,
+1-
+0.
+0/
+00
+01
+02
+03
+04
+15
+06
+07
+18
+09
+0:
+0;
+1<
+0=
+0>
+0?
+1@
+1A
+0B
+0C
+0D
+1E
+0F
+0G
+0H
+1I
+1J
+0K
+0L
+0M
+1N
+0O
+0P
+0Q
+1R
+1S
+0T
+0U
+0V
+1W
+0X
+0Y
+0Z
+1[
+1\
+1]
+0^
+0_
+0`
+1a
+0b
+0c
+0d
+1e
+1f
+0g
+0h
+0i
+1j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+1r
+0s
+0-!
+0,!
+0+!
+0*!
+0)!
+0(!
+0'!
+0&!
+0%!
+0$!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+$end
+#50000
+1"
+12
+0'
+#100000
+0"
+02
+1'
+#125000
+1!
+14
+0'
+#150000
+1"
+12
+1'
+1-!
+16
+05
+17
+#200000
+0"
+02
+0'
+#250000
+0!
+1"
+04
+12
+1'
+0-!
+06
+15
+07
+#300000
+0"
+02
+0'
+#350000
+1"
+12
+1'
+#375000
+1!
+14
+0'
+#400000
+0"
+02
+1'
+#450000
+1"
+12
+0'
+1-!
+16
+05
+17
+#500000
+0!
+0"
+04
+02
+1'
+0-!
+06
+15
+07
+#550000
+1"
+12
+0'
+#600000
+0"
+02
+1'
+#625000
+1!
+14
+0'
+#650000
+1"
+12
+1'
+1-!
+16
+05
+17
+#700000
+0"
+02
+0'
+#750000
+0!
+1"
+04
+12
+1'
+0-!
+06
+15
+07
+#800000
+0"
+02
+0'
+#850000
+1"
+12
+1'
+#875000
+1!
+14
+0'
+#900000
+0"
+02
+1'
+#950000
+1"
+12
+0'
+1-!
+16
+05
+17
+#1000000
